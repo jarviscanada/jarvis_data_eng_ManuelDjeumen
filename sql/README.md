@@ -1,7 +1,4 @@
-
-# Introduction
-
-This project was about SQL. It was meant for us to train ourselves and exercise about Databases and some of the commands needed for a queries. We had to implement queries based on specifications about a certain database and then show the output of those one live. 
+[# Introduction
 
 # SQL Quries
 
@@ -43,18 +40,18 @@ CREATE TABLE cd.bookings(
 ```
 
 
-###### Question 1:
+###### Question 1: Insert a new facility in the table
 ```sql
 INSERT INTO cd.facilities VALUES (9, "Spa", 20, 30, 10000, 800);
 ```
 
-###### Questions 2: Lorem ipsum...
+###### Questions 2: Insert a new facility with an automatic generated id
 
 ```sql
 INSERT INTO cd.facilities VALUES ((SELECT COUNT(facid) FROM facilities), "Spa", 20, 30, 10000, 800);
 ```
 
-###### Questions 3: Lorem ipsum...
+###### Questions 3:Update the initial outlay value inside the facilitu Table
 
 ```sql
 UPDATE cd.facilities
@@ -62,7 +59,7 @@ SET initialoutlay = 10000
 WHERE initialoutlay = 8000;
 ```
 
-###### Questions 4: Lorem ipsum...
+###### Questions 4: Change a certain price bad of the price of another data in the table
 
 ```sql
 UPDATE cd.facilities
@@ -70,41 +67,41 @@ SET membercost = (SELECT membercost + membercost * 0.1 FROM cd.facilities WHERE 
 WHERE name = "Tennis Court 2";
 ```
 
-###### Questions 5: Lorem ipsum...
+###### Questions 5: Delete every row from the bookings table
 
 ```sql
 DELETE FROM cd.bookings;
 ```
 
-###### Questions 6: Lorem ipsum...
+###### Questions 6: Delete all the rows where the condition is matched
 
 ```sql
 DELETE FROM cd.members
 WHERE memid = 37;
 ```
 
-###### Questions 7: Lorem ipsum...
+###### Questions 7: Produce a list of facilities that charge a fee to members, and that fee is less than 1/50th of the monthly maintenance cost
 
 ```sql
 SELECT facid, name, membercost, monthlymaintenance FROM cd.facilities
 Where membercost < monthlymaintenance / 50 AND membercost > 0;
 ```
 
-###### Questions 8: Lorem ipsum...
+###### Questions 8: Produce a list of all facilities with the word 'Tennis' in their name
 
 ```sql
 SELECT * FROM cd.facilities 
 WHERE name LIKE '%Tennis%'; 
 ```
 
-###### Questions 9: Lorem ipsum...
+###### Questions 9: Retrieve the details of facilities with ID 1 and 5 without using the OR operator
 
 ```sql
 SELECT * FROM cd.facilities
 WHERE facid IN (1,5);
 ```
 
-###### Questions 10: Lorem ipsum...
+###### Questions 10: Produce a list of members who joined after the start of September 2012
 
 ```sql
 SELECT memid, surname, firstname, joindate 
@@ -112,7 +109,7 @@ FROM cd.members
 WHERE joindate > '2012-09-01 00:00:00';
 ```
 
-###### Questions 11: Lorem ipsum...
+###### Questions 11: Produce a combined list of all surnames and all facility names
 
 ```sql
 SELECT name
@@ -122,7 +119,7 @@ SELECT surname
 FROM cd.members;
 ```
 
-###### Questions 12: Lorem ipsum...
+###### Questions 12: Produce a list of the start times for bookings by members named 'David Farrell'
 
 ```sql
 SELECT cd.bookings.starttime 
@@ -131,7 +128,7 @@ INNER JOIN cd.members
 ON cd.members.memid =  cd.bookings.memid
 WHERE cd.members.firstname = 'David' AND cd.members.surname = 'Farrell';
 ```
-###### Questions 13: Lorem ipsum...
+###### Questions 13: produce a list of the start times for bookings for tennis courts, for the date '2012-09-21'
 
 ```sql
 SELECT starttime, name
@@ -141,8 +138,7 @@ ON cd.bookings.facid = cd.facilities.facid
 WHERE name IN ('Tennis Court 1', 'Tennis Court 2') AND (starttime > '2012-09-21 00:00:00' AND starttime <= '2012-09-21 23:59:59');
 ```
 
-###### Questions 14: Lorem ipsum...
-
+###### Questions 14: Output a list of all members, including the individual who recommended them
 ```sql
 SELECT mems.firstname AS memfname, mems.surname AS memsname, recs.firstname AS recfname, recs.surname AS recsname
 FROM 
@@ -152,8 +148,7 @@ ON recs.memid = mems.recommendedby
 ORDER BY memsname, memfname;    
 ```
 
-###### Questions 15: Lorem ipsum...
-
+###### Questions 15: Output a list of all members who have recommended another member
 ```sql
 SELECT DISTINCT recs.firstname AS firstname, recs.surname AS surname
 FROM 
@@ -163,7 +158,7 @@ ON recs.memid = mems.recommendedby
 ORDER BY surname, firstname; 
 ```
 
-###### Questions 16: Lorem ipsum...
+###### Questions 16: Output a list of all members, including the individual who recommended them without using any joins
 
 ```sql
 SELECT DISTINCT mems.firstname || ' ' ||  mems.surname AS member,
@@ -176,7 +171,7 @@ SELECT DISTINCT mems.firstname || ' ' ||  mems.surname AS member,
 ORDER BY member;  
 ```
 
-###### Questions 17: Lorem ipsum...
+###### Questions 17: Produce a count of the number of recommendations each member has made. Order by member ID.
 
 ```sql
 SELECT recommendedby, count(*)
@@ -186,7 +181,7 @@ GROUP BY recommendedby
 ORDER BY recommendedby;
 ```
 
-###### Questions 18: Lorem ipsum...
+###### Questions 18: Produce a list of the total number of slots booked per facility
 
 ```sql
 SELECT facid, SUM(slots) AS "Total Slots"
@@ -195,7 +190,7 @@ GROUP BY facid
 ORDER BY facid;
 ```
 
-###### Questions 19: Lorem ipsum...
+###### Questions 19: Produce a list of the total number of slots booked per facility in the month of September 2012
 
 ```sql
 SELECT facid, SUM(slots) AS "Total Slots"
@@ -205,7 +200,7 @@ GROUP BY facid
 ORDER BY "Total Slots";
 ```
 
-###### Questions 20: Lorem ipsum...
+###### Questions 20: Produce a list of the total number of slots booked per facility per month in the year of 2012
 
 ```sql
 SELECT facid, EXTRACT(MONTH FROM starttime) AS month, SUM(slots) AS "Total Slots"
@@ -215,14 +210,14 @@ GROUP BY facid, month
 ORDER BY facid, month;
 ```
 
-###### Questions 21: Lorem ipsum...
+###### Questions 21: Find the total number of members (including guests) who have made at least one booking
 
 ```sql
 SELECT COUNT(DISTINCT memid)
 FROM cd.bookings;
 ```
 
-###### Questions 22: Lorem ipsum...
+###### Questions 22: Produce a list of each member name, id, and their first booking after September 1st 2012. Order by member ID
 
 ```sql
 SELECT cd.members.surname, cd.members.firstname, cd.members.memid, MIN(starttime) as starttime
@@ -234,7 +229,7 @@ GROUP BY cd.members.surname, cd.members.firstname, cd.members.memid
 ORDER BY cd.members.memid;
 ```
 
-###### Questions 23: Lorem ipsum...
+###### Questions 23: Produce a list of member names, with each row containing the total member count
 
 ```sql
 SELECT COUNT(*) OVER(), firstname, surname
@@ -242,7 +237,7 @@ FROM cd.members
 ORDER BY joindate;
 ```
 
-###### Questions 24: Lorem ipsum...
+###### Questions 24: Produce a monotonically increasing numbered list of members (including guests), ordered by their date of joining
 
 ```sql
 SELECT ROW_NUMBER() OVER(ORDER BY joindate) AS row_number, firstname, surname
@@ -250,7 +245,7 @@ FROM cd.members
 ORDER BY joindate;
 ```
 
-###### Questions 25: Lorem ipsum...
+###### Questions 25: Output the facility id that has the highest number of slots booked
 
 ```sql
 SELECT facid, total FROM (
@@ -261,14 +256,14 @@ SELECT facid, total FROM (
 	WHERE rank = 1
 ```
 
-###### Questions 26: Lorem ipsum...
+###### Questions 26: Output the names of all members, formatted as 'Surname, Firstname'
 
 ```sql
 SELECT CONCAT(surname,', ', firstname) AS name
 FROM cd.members;
 ```
 
-###### Questions 27: Lorem ipsum...
+###### Questions 27: find all the telephone numbers that contain parentheses, returning the member ID and telephone number sorted by member ID.
 
 ```sql
 SELECT memid, telephone
@@ -276,7 +271,7 @@ FROM cd.members
 WHERE POSITION('(' IN telephone) IS NOT NULL AND POSITION(')' IN telephone) IS NOT NULL;
 ```
 
-###### Questions 28: Lorem ipsum...
+###### Questions 28:  Produce a count of how many members you have whose surname starts with each letter of the alphabet.
 
 ```sql
 SELECT substr (mems.surname,1,1) as letter, count(*) AS count 

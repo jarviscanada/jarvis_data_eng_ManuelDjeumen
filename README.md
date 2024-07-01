@@ -4,9 +4,11 @@ IT Support technician and Software Developer.Throughout my professional journey,
 
 ## Skills
 
-**Business Skills:** Microsoft Word, Microsoft Excel, Visual Paradigm, Miro, Figma, Agile framework
+**Proficient:** Java, Linux/Bash, RDBMS/SQL, Agile/Scrum, Git
 
-**Technical Skills:** RDBMS/SQL, Data Modeling/Mapping, Data Analytics, Algorithms, Python, Java, HTML/CSS, JavaScript
+**Competent:** Python, Java, Linux/Bash, Git
+
+**Familiar:** Python, Java, Linux/Bash, Git
 
 ## Jarvis Projects
 

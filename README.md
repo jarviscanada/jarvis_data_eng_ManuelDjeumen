@@ -34,8 +34,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_ManuelDjeu
 
 **Grocery Clerk, Maxi (2022)**: Helping client with their sales in the shop; organizing the products in the shop and also dealing with some of the clients issues.
 
-**IT Support specialist, SEKURCORP (2023)**: Technical Hardware and Software support; Had to deal with XML files to generate payroll reports.
-
+**Product Demonstrator, CDS Terrebone (2021)**: Selling and talking about various products on a day to day basis. 
 
 ## Education
 **Université de Montreal (2020-2023)**, Bachelor in computeer sciences, Lettres et sciences humaines
@@ -46,7 +45,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_ManuelDjeu
 
 
 ## Miscellaneous
-- 3rd best camper (2019)
+- 3rd best camper in a young leader's camp (2019)
 - Leading team activities
 - Participating in team sports by being the captain of the team
 - Teaching Kids about their behavior in society

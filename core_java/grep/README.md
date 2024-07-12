@@ -8,14 +8,14 @@ So the app will do the same thing by taking the folder path, the regular express
 
 #Implemenation
 ## Pseudocode
-write `process` method pseudocode.
+```java
 public void process() throws IOException {
         for (File i : listFiles(getRootPath())){
             List<String> lines = readLines(i);
             writeToFile(lines);
         }
     }
-
+```
 This is the implementation in Java of the process. The method checks in the folder path provided all the files inside and read all the lines inside each files. Then for each line, it verify if the pattern provided is present and if it is the case, it writes the line inside the output file. The verification process is done inside the 'writeToFile()' method. 
 
 ## Performance Issue

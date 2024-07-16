@@ -4,11 +4,9 @@ IT Support technician and Software Developer.Throughout my professional journey,
 
 ## Skills
 
-**Proficient:** Java, Linux/Bash, RDBMS/SQL, Agile/Scrum, Git
+**Business Skills:** Microsoft Word, Microsoft Excel, Visual Paradigm, Miro, Figma, Agile framework
 
-**Competent:** Python, Java, Linux/Bash, Git
-
-**Familiar:** Python, Java, Linux/Bash, Git
+**Technical Skills:** RDBMS/SQL, Data Modeling/Mapping, Data Analytics, Algorithms, Python, Java, HTML/CSS, JavaScript
 
 ## Jarvis Projects
 
@@ -17,11 +15,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_ManuelDjeu
 
 **Linux Cluster Resource Monitoring App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_ManuelDjeumen/tree/master/linux_sql)]: Using Data Modeling methods with SQL and RDBMS to generate data from a specific database that could be used for future requirements.
 
-
-**Core Java Grep App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_ManuelDjeumen/tree/master/core_java)]: ////////////////////////////////////
-
-
-**Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_ManuelDjeumen/tree/master/python_data_anlytics)]: ////////////////////////////////////
+**Core java grep app** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_ManuelDjeumen/tree/master/core_java)]: Using java and the java main concepts and tools such as OOP (Object Oriented Programming), Maven and others to implement the grep command which is used to detected certain patterns in specific files from a directory
 
 
 ## Highlighted Projects
@@ -38,7 +32,8 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_ManuelDjeu
 
 **Grocery Clerk, Maxi (2022)**: Helping client with their sales in the shop; organizing the products in the shop and also dealing with some of the clients issues.
 
-**Product Demonstrator, CDS Terrebone (2021)**: Selling and talking about various products on a day to day basis. 
+**IT Support specialist, SEKURCORP (2023)**: Technical Hardware and Software support; Had to deal with XML files to generate payroll reports.
+
 
 ## Education
 **Université de Montreal (2020-2023)**, Bachelor in computeer sciences, Lettres et sciences humaines
@@ -49,7 +44,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_ManuelDjeu
 
 
 ## Miscellaneous
-- 3rd best camper in a young leader's camp (2019)
+- 3rd best camper (2019)
 - Leading team activities
 - Participating in team sports by being the captain of the team
 - Teaching Kids about their behavior in society

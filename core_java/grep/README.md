@@ -1,5 +1,4 @@
 # Introduction
-(50-100 words)
 The grep app is an implementation of the grep linux command but done with java. For acheiving this purpose, it was needed to know some basic concepts with OOP (Object Orienting Programming), Java, and class and methods handling. Also concept like Streams and lambda functions for the second implementation of the app with those.  
 
 # Quick Start

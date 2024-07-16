@@ -18,7 +18,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_ManuelDjeu
 **Linux Cluster Resource Monitoring App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_ManuelDjeumen/tree/master/linux_sql)]: Using Data Modeling methods with SQL and RDBMS to generate data from a specific database that could be used for future requirements.
 
 
-**Core Java Grep App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_ManuelDjeumen/tree/master/core_java)]: ////////////////////////////////////
+**Core Java Grep App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_ManuelDjeumen/tree/master/core_java)]: Using java and the java main concepts and tools such as OOP (Object Oriented Programming), Maven and others to implement the grep command which is used to detected certain patterns in specific files from a directory
 
 
 **Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_ManuelDjeumen/tree/master/python_data_anlytics)]: ////////////////////////////////////

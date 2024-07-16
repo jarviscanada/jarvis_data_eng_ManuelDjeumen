@@ -42,11 +42,11 @@ jarvis_projects:
     # Focus on BSA work instead of development work
     # Include the following keywords: BRD, SRD, Elicitation, stakeholder, reqruiement, analysis, RDBMS, SQL, data modeling, SLA
     description: "Using Data Modeling methods with SQL and RDBMS to generate data from a specific database that could be used for future requirements."
-  - name: "Python Data Analytics"
-    git_url: "/python_data_anlytics"
+  - name: "Core java grep app"
+    git_url: "/core_java"
     # Focus on BSA work instead of development work
     # e.g. solve business problem, requirement, data sources, analytics, stakeholders, documentation
-    description: "////////////////////////////////////"
+    description: "Using java and the java main concepts and tools such as OOP (Object Oriented Programming), Maven and others to implement the grep command which is used to detected certain patterns in specific files from a directory"
 
 # List of personal or academic projects
 # Please focus on transferable skills, such as soft skills and data related skills

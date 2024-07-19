@@ -1,4 +1,6 @@
-//package ca.jrvs.apps.grep;
+package ca.jrvs.apps.grep;
+import org.apache.log4j.BasicConfigurator;
+import org.slf4j.LoggerFactory;
 
 import java.io.*;
 import java.util.Collections;
@@ -7,13 +9,10 @@ import java.util.List;
 import java.util.logging.Logger;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import org.apache.log4j.BasicConfigurator;
 
 public class JavaGrepImp implements JavaGrep{
 
-    private System LoggerFactory;
-    //    private System LoggerFactory;
-    //final Logger logger = (Logger)LoggerFactory.getLogger(String.valueOf(JavaGrep.class));
+    final Logger logger = (Logger) LoggerFactory.getLogger(JavaGrep.class);
 
     private String regex;
     private String rootPath;
@@ -139,7 +138,7 @@ public class JavaGrepImp implements JavaGrep{
         }
         catch (Exception ex){
             System.out.println(ex.getMessage());
-//            javaGrepImp.logger.error("Error. Unable to process", ex);
+//            javaGrepImp.logger.error("Error: Unable to process", ex);
         }
     }
 }

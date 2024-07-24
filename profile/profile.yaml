@@ -81,16 +81,16 @@ professional_experience:
     duration: "2022"
     description: "Helping client with their sales in the shop; organizing the products in the shop and also dealing with some of the clients issues."
 
-  - title: "IT Support specialist"
-    company: "SEKURCORP"
-    duration: "2023"
-    description: "Technical Hardware and Software support; Had to deal with XML files to generate payroll reports."
+  - title: "Product Demonstrator"
+    company: "CDS Terrebone"
+    duration: "2021"
+    description: "Demonstrate various products in a Costco wharehouse to various customers and show them their uses."
 
 #List of edcuation
 education: 
   - school_name: "Université de Montreal"
     duration: "2020-2023"
-    degree: "Bachelor in computeer sciences"
+    degree: "Bachelor in computer sciences"
     department: "Lettres et sciences humaines"
     # optional
     awards_achievements:
@@ -103,19 +103,7 @@ education:
 #Optional section
 others:
     #category
-  - title: "Participation to young leaders Camp"
-    #list of items
-    bullets:
-      - "3rd best camper (2019)"
-      - "Leading team activities"
-      - "Participating in team sports by being the captain of the team"
-  - title: "Monitoring Kids on sunday schools"
-    bullets:
-      - "Teaching Kids about their behavior in society"
-      - "Giving them good values for their lives in the future"
-      - "Entertain them also with some activities ang games with prices at the end"
   - title: "Activities/Hobbies"
+  #list of items
     bullets:
-      - "Basketball player"
-      - "Football player"
-      - "Ping-Pong player"
+      - "Sport player:Basket-ball, Football and Ping-Pong. Participated in many little summer tournaments and competitions in those 3 sports" 

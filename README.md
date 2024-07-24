@@ -26,13 +26,13 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_ManuelDjeu
 
 ## Professional Experiences
 
-**Software Developer, Jarvis (2024-present)**: Jarvis Training program for now. Working on different types of project and growing my soft technical skills
+**Software Developer, Jarvis (2024-present)**: Jarvis Training program for now. Working on different types of project and growing my soft technical skills, and alsso my soft skills in general such as communication and others. Different type of technology are used here such as Docker, programming languages like Java and many more.
 
-**IT Support specialist, SEKURCORP (2023)**: Technical Hardware and Software support; Had to deal with XML files to generate payroll reports.
+**IT Support specialist, SEKURCORP (2023)**: Technical Hardware and Software support. Had to deal with XML files to generate payroll reports. The job helped me with problem solving, data mnagement because I also had to check out various data about the employees of the company in order to do my work and also in terms of working as a team. I was in various teams to do some of the tasks that was needed in the company.
 
-**Grocery Clerk, Maxi (2022)**: Helping client with their sales in the shop; organizing the products in the shop and also dealing with some of the clients issues.
+**Grocery Clerk, Maxi (2022)**: Helping client with their sales in the shop; organizing the products in the shop and also dealing with some of the clients issues. It was a great in terms of learning how to deal with customers in general. But it also teaches organization and planification becausse as a glocery clerk to have to arrange products in different sections of the store so it is very important to memorize the products and know the process before puting them at their place. Team work was also a big part of the job.
 
-**Product Demonstrator, CDS Terrebone (2021)**: Demonstrate various products in a Costco wharehouse to various customers and show them their uses.
+**Product Demonstrator, CDS Terrebone (2021)**: Demonstrate various products in a Costco wharehouse to various customers and show them their uses. As a first professional experience, this job helped me to deal with customers in genral, happy ones or not so happy ones. It developed patience and the ability to understand the needs of a client in order to recommend to him the best product avalaible for his needs.
 
 
 ## Education

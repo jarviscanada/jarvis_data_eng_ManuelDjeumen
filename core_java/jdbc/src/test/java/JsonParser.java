@@ -1,3 +1,5 @@
+import com.fasterxml.jackson.core.JsonProcessingException;
+
 public class JsonParser {
     /**
      * Convert a java object to JSON String
@@ -7,7 +9,7 @@ public class JsonParser {
      *
      *
      */
-    public static String toJson(Object object, boolean prettyJson, boolean includeNullValues) throws JsonProcessingException{
-
-    }
+//    public static String toJson(Object object, boolean prettyJson, boolean includeNullValues) throws JsonProcessingException {
+//
+//    }
 }

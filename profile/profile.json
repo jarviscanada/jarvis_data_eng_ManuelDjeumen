@@ -1,0 +1,95 @@
+{
+  "education": [
+    {
+      "awards_achievements": [
+        "GPA: 2.3/4.0",
+        "Summer projects",
+        "Coding certificates done on platforms such as codecademy",
+        "Participated in conferences about AI in the University"
+      ],
+      "degree": "Bachelor in computer sciences",
+      "department": "Lettres et sciences humaines",
+      "duration": "2020-2023",
+      "school_name": "Université de Montreal"
+    }
+  ],
+  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_ManuelDjeumen",
+  "highlighted_projects": [
+    {
+      "description": "ROUNDTABLE is an app meant for the software development team of the university of Montreal in order to manage more efficiently their work and structure well their needs. It was done firstly by building a prototype which was the wor our team and I worked on to be deliver to the client which was the Software dev team of the University.",
+      "name": "ROUNDTABLE"
+    },
+    {
+      "description": "SOLID is a trading bot algorithm coded with the MQL5 programming language which is a lot similar as Java. It analyses markets and reacts to it by placing Trades in order to gain a certain profit on each one.",
+      "name": "SOLID"
+    }
+  ],
+  "jarvis_projects": [
+    {
+      "description": "Using Data Modeling methods with SQL and RDBMS to generate data from a specific database that could be used for future requirements.",
+      "git_url": "/linux_sql",
+      "name": "Linux Cluster Resource Monitoring App"
+    },
+    {
+      "description": "Using java and the java main concepts and tools such as OOP (Object Oriented Programming), Maven and others to implement the grep command which is used to detected certain patterns in specific files from a directory",
+      "git_url": "/core_java",
+      "name": "Core java grep app"
+    }
+  ],
+  "name": "Thierry Manuel Tchoumkeu Djeumen",
+  "others": [
+    {
+      "bullets": [
+        "Sport player:Basket-ball, Football and Ping-Pong. Participated in many little summer tournaments and competitions in those 3 sports"
+      ],
+      "title": "Activities/Hobbies"
+    }
+  ],
+  "professional_experience": [
+    {
+      "company": "Jarvis",
+      "description": "Jarvis Training program for now. Working on different types of project and growing my soft technical skills, and alsso my soft skills in general such as communication and others. Different type of technology are used here such as Docker, programming languages like Java and many more.",
+      "duration": "2024-present",
+      "title": "Software Developer"
+    },
+    {
+      "company": "SEKURCORP",
+      "description": "Technical Hardware and Software support. Had to deal with XML files to generate payroll reports. The job helped me with problem solving, data mnagement because I also had to check out various data about the employees of the company in order to do my work and also in terms of working as a team. I was in various teams to do some of the tasks that was needed in the company.",
+      "duration": "2023",
+      "title": "IT Support specialist"
+    },
+    {
+      "company": "Maxi",
+      "description": "Helping client with their sales in the shop; organizing the products in the shop and also dealing with some of the clients issues. It was a great in terms of learning how to deal with customers in general. But it also teaches organization and planification becausse as a glocery clerk to have to arrange products in different sections of the store so it is very important to memorize the products and know the process before puting them at their place. Team work was also a big part of the job.",
+      "duration": "2022",
+      "title": "Grocery Clerk"
+    },
+    {
+      "company": "CDS Terrebone",
+      "description": "Demonstrate various products in a Costco wharehouse to various customers and show them their uses. As a first professional experience, this job helped me to deal with customers in genral, happy ones or not so happy ones. It developed patience and the ability to understand the needs of a client in order to recommend to him the best product avalaible for his needs.",
+      "duration": "2021",
+      "title": "Product Demonstrator"
+    }
+  ],
+  "skills": {
+    "Business Skills": [
+      "Microsoft Word",
+      "Microsoft Excel",
+      "Visual Paradigm",
+      "Miro",
+      "Figma",
+      "Agile framework"
+    ],
+    "Technical Skills": [
+      "RDBMS/SQL",
+      "Data Modeling/Mapping",
+      "Data Analytics",
+      "Algorithms",
+      "Python",
+      "Java",
+      "HTML/CSS",
+      "JavaScript"
+    ]
+  },
+  "summary": "IT Support technician and Software Developer.Throughout my professional journey, I have gained strong skills in programming, solving problems, and Databases, along with a proven ability to create bases for a pre-functional app. I've had the opportunity to work on an app for the software team of my university in the context of a course in class that has further developed my capability to program the base of an app with languages like Java, JavaScript and Python"
+}

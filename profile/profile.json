@@ -7,7 +7,7 @@
         "Coding certificates done on platforms such as codecademy",
         "Participated in conferences about AI in the University"
       ],
-      "degree": "Bachelor in computeer sciences",
+      "degree": "Bachelor in computer sciences",
       "department": "Lettres et sciences humaines",
       "duration": "2020-2023",
       "school_name": "Université de Montreal"
@@ -40,25 +40,7 @@
   "others": [
     {
       "bullets": [
-        "3rd best camper (2019)",
-        "Leading team activities",
-        "Participating in team sports by being the captain of the team"
-      ],
-      "title": "Participation to young leaders Camp"
-    },
-    {
-      "bullets": [
-        "Teaching Kids about their behavior in society",
-        "Giving them good values for their lives in the future",
-        "Entertain them also with some activities ang games with prices at the end"
-      ],
-      "title": "Monitoring Kids on sunday schools"
-    },
-    {
-      "bullets": [
-        "Basketball player",
-        "Football player",
-        "Ping-Pong player"
+        "Sport player:Basket-ball, Football and Ping-Pong. Participated in many little summer tournaments and competitions in those 3 sports"
       ],
       "title": "Activities/Hobbies"
     }
@@ -83,10 +65,10 @@
       "title": "Grocery Clerk"
     },
     {
-      "company": "SEKURCORP",
-      "description": "Technical Hardware and Software support; Had to deal with XML files to generate payroll reports.",
-      "duration": "2023",
-      "title": "IT Support specialist"
+      "company": "CDS Terrebone",
+      "description": "Demonstrate various products in a Costco wharehouse to various customers and show them their uses.",
+      "duration": "2021",
+      "title": "Product Demonstrator"
     }
   ],
   "skills": {

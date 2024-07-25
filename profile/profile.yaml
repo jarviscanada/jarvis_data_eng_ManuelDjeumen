@@ -94,10 +94,10 @@ education:
     department: "Lettres et sciences humaines"
     # optional
     awards_achievements:
-      - "GPA: 2.3/4.0"
-      - "Summer projects"
-      - "Coding certificates done on platforms such as codecademy"
-      - "Participated in conferences about AI in the University"
+    - "GPA: 2.3/4.0"
+    - "Summer projects"
+    - "Coding certificates done on platforms such as codecademy"
+    - "Participated in conferences about AI in the University"
 
 
 #Optional section

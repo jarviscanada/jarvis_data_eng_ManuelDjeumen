@@ -38,9 +38,6 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_ManuelDjeu
 ## Education
 **Université de Montreal (2020-2023)**, Bachelor in computer sciences, Lettres et sciences humaines
 - GPA: 2.3/4.0
-- Summer projects
-- Coding certificates done on platforms such as codecademy
-- Participated in conferences about AI in the University
 
 
 ## Miscellaneous

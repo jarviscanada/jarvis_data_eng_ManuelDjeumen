@@ -48,7 +48,9 @@ public class QuoteHttpHelper {
         try {
             HttpResponse<String> response = HttpClient.newHttpClient().send(request, HttpResponse.BodyHandlers.ofString());
 //            System.out.println(response.body());
-            return jsonParser.toObjectFromJson(response.body(), Quote.class);
+            String body = response.body();
+            String jsonWell = body.substring(body.indexOf("{") + 22, body.length()-2);
+            return jsonParser.toObjectFromJson(jsonWell, Quote.class);
 
         } catch (InterruptedException e) {
             e.printStackTrace();

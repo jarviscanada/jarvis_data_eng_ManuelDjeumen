@@ -10,7 +10,7 @@ import java.time.LocalDateTime;
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @JsonPropertyOrder({
-        "ticker",
+        "symbol",
         "open",
         "high",
         "low",
@@ -23,27 +23,27 @@ import java.time.LocalDateTime;
 })
 
 public class Quote {
-    @JsonProperty("ticker")
+    @JsonProperty("01. symbol")
     private String ticker; //id
-    @JsonProperty("open")
+    @JsonProperty("02. open")
     private double open;
-    @JsonProperty("high")
+    @JsonProperty("03. high")
     private double high;
-    @JsonProperty("low")
+    @JsonProperty("04. low")
     private double low;
-    @JsonProperty("price")
+    @JsonProperty("05. price")
     private double price;
-    @JsonProperty("volume")
+    @JsonProperty("06. volume")
     private int volume;
-    @JsonProperty("latestTradingDay")
+    @JsonProperty("07. latest trading day")
     private Date latestTradingDay;
-    @JsonProperty("previousClose")
+    @JsonProperty("08. previous close")
     private double previousClose;
-    @JsonProperty("change")
+    @JsonProperty("09. change")
     private double change;
-    @JsonProperty("changePercent")
+    @JsonProperty("10. change percent")
     private String changePercent;
-    private Timestamp timestamp; //time when the info was pulled
+    private Timestamp timestamp = Timestamp.valueOf(LocalDateTime.now()); //time when the info was pulled
 
 
     public String getTicker() {
@@ -87,7 +87,7 @@ public class Quote {
     }
 
     public Timestamp getTimestamp() {
-        return Timestamp.valueOf(LocalDateTime.now());
+        return timestamp;
     }
 
     public void setTicker(String ticker) {
@@ -128,6 +128,10 @@ public class Quote {
 
     public void setVolume(int volume) {
         this.volume = volume;
+    }
+
+    public void setTimestamp(Timestamp timestamp) {
+        this.timestamp = timestamp;
     }
 
     @Override

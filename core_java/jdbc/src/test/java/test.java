@@ -22,7 +22,8 @@ public class test {
 
         try {
             HttpResponse<String> response = HttpClient.newHttpClient().send(request, HttpResponse.BodyHandlers.ofString());
-            System.out.println(response.body());
+            String body = response.body();
+            System.out.println(body.substring(body.indexOf("{") + 22, body.length()-2));
         } catch (InterruptedException e) {
             e.printStackTrace();
         } catch (JsonMappingException e) {

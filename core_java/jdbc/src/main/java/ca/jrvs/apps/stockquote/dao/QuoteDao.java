@@ -44,7 +44,7 @@ public class QuoteDao implements CrudDao<Quote, String> {
         }
 
         finally {
-            return null;
+            return entity;
         }
     }
 
@@ -54,19 +54,17 @@ public class QuoteDao implements CrudDao<Quote, String> {
         try(PreparedStatement statement = this.c.prepareStatement(GET_ONE)) {
             statement.setString(1, s);
             ResultSet rs = statement.executeQuery();
-            while (rs.next()){
-                quote.setTicker(rs.getString("symbol"));
-                quote.setOpen(rs.getDouble("open"));
-                quote.setHigh(rs.getDouble("high"));
-                quote.setLow(rs.getDouble("low"));
-                quote.setPrice(rs.getDouble("price"));
-                quote.setVolume(rs.getInt("volume"));
-                quote.setLatestTradingDay(rs.getDate("latestTradingDay"));
-                quote.setPreviousClose(rs.getDouble("previousClose"));
-                quote.setChange(rs.getDouble("change"));
-                quote.setChangePercent(rs.getString("changePercent"));
-                quote.setTimestamp(rs.getTimestamp("timestamp"));
-            }
+            quote.setTicker(rs.getString("symbol"));
+            quote.setOpen(rs.getDouble("open"));
+            quote.setHigh(rs.getDouble("high"));
+            quote.setLow(rs.getDouble("low"));
+            quote.setPrice(rs.getDouble("price"));
+            quote.setVolume(rs.getInt("volume"));
+            quote.setLatestTradingDay(rs.getDate("latestTradingDay"));
+            quote.setPreviousClose(rs.getDouble("previousClose"));
+            quote.setChange(rs.getDouble("change"));
+            quote.setChangePercent(rs.getString("changePercent"));
+            quote.setTimestamp(rs.getTimestamp("timestamp"));
             return Optional.of(quote);
 
         }
@@ -136,5 +134,9 @@ public class QuoteDao implements CrudDao<Quote, String> {
 
     public Connection getC() {
         return c;
+    }
+
+    public void setC(Connection c) {
+        this.c = c;
     }
 }

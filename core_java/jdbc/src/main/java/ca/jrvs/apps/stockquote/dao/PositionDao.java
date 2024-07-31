@@ -13,7 +13,7 @@ import java.util.Optional;
 public class PositionDao implements CrudDao<Position, String> {
 
     private Connection c;
-    private static final String INSERT = "INSERT INTO position (symbol, number_of_shares, value_paid, symbol_fk) VALUES (?, ?, ?, ?);";
+    private static final String INSERT = "INSERT INTO position (symbol, number_of_shares, value_paid) VALUES (?, ?, ?);";
     private static final String GET_ONE =  "SELECT symbol, number_of_shares, value_paid, symbol_fk FROM position WHERE symbol = ?;";
     private static final String GET_ALL =  "SELECT symbol, number_of_shares, value_paid, symbol_fk FROM position;";
     private static final String DELETE = "DELETE FROM position WHERE symbol = ?";
@@ -29,7 +29,6 @@ public class PositionDao implements CrudDao<Position, String> {
             statement.setString(1, entity.getTicker());
             statement.setInt(2, entity.getNumOfShares());
             statement.setDouble(3, entity.getValuePaid());
-            statement.setString(4, entity.getSymbol_fk());
             statement.execute();
         }
         catch (SQLException e){
@@ -37,7 +36,7 @@ public class PositionDao implements CrudDao<Position, String> {
         }
 
         finally {
-            return null;
+            return entity;
         }
     }
 
@@ -47,12 +46,9 @@ public class PositionDao implements CrudDao<Position, String> {
         try(PreparedStatement statement = this.c.prepareStatement(GET_ONE)) {
             statement.setString(1, s);
             ResultSet rs = statement.executeQuery();
-            while (rs.next()){
-                position.setTicker(rs.getString("symbol"));
-                position.setNumOfShares(rs.getInt("number_of_shares"));
-                position.setValuePaid(rs.getDouble("value_paid"));
-                position.setSymbol_fk(rs.getString("symbol_fk"));
-            }
+            position.setTicker(rs.getString("symbol"));
+            position.setNumOfShares(rs.getInt("number_of_shares"));
+            position.setValuePaid(rs.getDouble("value_paid"));
             return Optional.of(position);
         }
 
@@ -73,7 +69,6 @@ public class PositionDao implements CrudDao<Position, String> {
                 position.setTicker(rs.getString("symbol"));
                 position.setNumOfShares(rs.getInt("number_of_shares"));
                 position.setValuePaid(rs.getDouble("value_paid"));
-                position.setSymbol_fk(rs.getString("symbol_fk"));
                 list.add(position);
             }
             return list;
@@ -116,5 +111,9 @@ public class PositionDao implements CrudDao<Position, String> {
 
     public Connection getC() {
         return c;
+    }
+
+    public void setC(Connection c) {
+        this.c = c;
     }
 }

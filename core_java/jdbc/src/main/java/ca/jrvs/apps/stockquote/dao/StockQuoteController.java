@@ -2,11 +2,13 @@ package ca.jrvs.apps.stockquote.dao;
 
 import java.util.Optional;
 import java.util.Scanner;
+import java.util.logging.Logger;
 
 public class StockQuoteController {
 
     private QuoteService quoteService;
     private PositionService positionService;
+    private final Logger logger = Logger.getLogger(String.valueOf(StockQuoteController.class));
 
     public StockQuoteController(QuoteService quoteService, PositionService positionService){
         this.quoteService = quoteService;
@@ -45,10 +47,10 @@ public class StockQuoteController {
                 String symbol = scanner.next();
                 Optional<Quote> quoteData = quoteService.fetchQuoteDataFromAPI(symbol);
                 if(quoteData.isEmpty()){
-                    System.out.println("The data could not be found in the databases. Try again later!!\n");
+                    logger.info("The data could not be found in the databases. Try again later!!\n");
                 }
                 else {
-                    System.out.println("Here are your quote Data:\n");
+                    logger.info("Here are your quote Data:\n");
                     System.out.println(quoteData.get().toString());
                 }
 
@@ -58,13 +60,13 @@ public class StockQuoteController {
                 String symbol = scanner.next();
                 Optional<Quote> quoteData = quoteService.fetchQuoteDataFromAPI(symbol);
                 if(quoteData.isEmpty()){
-                    System.out.println("This stock is not for sale\n");
+                    logger.info("This stock is not for sale\n");
                 }
                 else {
                     System.out.println("Insert the number of shares:");
                     int numOfShares = scanner.nextInt();
                     positionService.buy(symbol, numOfShares, numOfShares * quoteData.get().getPrice());
-                    System.out.println("Your stock was bought\n");
+                    logger.info("Your stock was bought !!!!\n");
                 }
 
             }

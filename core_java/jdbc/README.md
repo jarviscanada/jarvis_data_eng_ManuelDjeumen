@@ -7,7 +7,7 @@ The main repositories patterns are inspired from Maven wich indlude a main direc
 ## ER Diagram
 ER diagram
 
-![Digram](https://images.app.goo.gl/eFLVb6334GmhuU4TA)
+![Digram](https://github.com/jarviscanada/jarvis_data_eng_ManuelDjeumen/blob/develop/core_java/jdbc/src/main/resources/diagramme.png)
 
 ## Design Patterns
 Discuss DAO and Repository design patterns (150-200 words)

@@ -17,6 +17,8 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_ManuelDjeu
 
 **Core java grep app** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_ManuelDjeumen/tree/master/core_java)]: Using java and the java main concepts and tools such as OOP (Object Oriented Programming), Maven and others to implement the grep command which is used to detected certain patterns in specific files from a directory
 
+**Stock Quote App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_ManuelDjeumen/tree/master/core_java/jdbc)]: Using Java as the main programming language and some of it's main modules such as HTTP, JSON and SQL modules imported by the use of Maven to take Stock data from a specific server and store it into a database. The project is conceive like a first instance app with the controller implementation being done on the terminal for any user to actually use it properly
+
 
 ## Highlighted Projects
 **ROUNDTABLE**: ROUNDTABLE is an app meant for the software development team of the university of Montreal in order to manage more efficiently their work and structure well their needs. It was done firstly by building a prototype which was the wor our team and I worked on to be deliver to the client which was the Software dev team of the University.

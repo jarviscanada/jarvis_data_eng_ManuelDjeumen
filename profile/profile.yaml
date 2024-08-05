@@ -47,6 +47,12 @@ jarvis_projects:
     # Focus on BSA work instead of development work
     # e.g. solve business problem, requirement, data sources, analytics, stakeholders, documentation
     description: "Using java and the java main concepts and tools such as OOP (Object Oriented Programming), Maven and others to implement the grep command which is used to detected certain patterns in specific files from a directory"
+  - name: "Stock Quote App"
+    git_url: "/core_java/jdbc"
+    # Focus on BSA work instead of development work
+    # e.g. solve business problem, requirement, data sources, analytics, stakeholders, documentation
+    description: "Using Java as the main programming language and some of it's main modules such as HTTP, JSON and SQL modules imported by the use of Maven to take Stock data from a specific server and store it into a database. The project is conceive like a first instance app with the controller implementation being done on the terminal for any user to actually use it properly"
+
 
 # List of personal or academic projects
 # Please focus on transferable skills, such as soft skills and data related skills
